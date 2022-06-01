@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+    width: 100%;
 }
 body {
     margin:0;
@@ -13,13 +13,16 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 1000px;
-    padding: 40px;
+    width: 800px;
+    height: 70%;
     transform: translate(-50%, -50%);
     background: rgba(0,0,0,.5);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
+    padding: 40px;
+    padding-top: 350px;
+    padding-bottom: 350px;
 }
 
 .login-box h1 {
@@ -27,6 +30,8 @@ body {
     padding: 0;
     color: #fff;
     text-align: center;
+    font-size: 50px;
+    padding-bottom: 20px;
 }
 
 .login-box .user-box {
@@ -77,6 +82,9 @@ body {
     margin-top: 40px;
     letter-spacing: 4px;
     border: none;
+    align-items: center;
+    width: 300px;
+    height: 100px;
 }
 
 .login-box button:hover {
@@ -87,6 +95,8 @@ body {
     0 0 25px #03e9f4,
     0 0 50px #03e9f4,
     0 0 100px #03e9f4;
+    cursor: pointer;
+
 }
 
 .login-box button span {
@@ -271,3 +281,4 @@ input[type=checkbox]{
     transition: 0.6s;
 
 }
+
