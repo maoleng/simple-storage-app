@@ -59,13 +59,13 @@ class StorageController extends Controller
 
         $image_name = "";
         if ($image['mime'] === "image/png") {
-            $image_name = "src/$type/" . uniqid('image_', true) . '.png';
+            $image_name = "public/src/$type/" . uniqid('image_', true) . '.png';
         }
         if ($image['mime'] === "image/jpeg") {
-            $image_name = "src/$type/" . uniqid('image_', true) . '.jpg';
+            $image_name = "public/src/$type/" . uniqid('image_', true) . '.jpg';
         }
         if ($image['mime'] === "image/webp") {
-            $image_name = "src/$type/" . uniqid('image_', true) . '.webp';
+            $image_name = "public/src/$type/" . uniqid('image_', true) . '.webp';
         }
         Storage::query()->create([
             'content' => $image_name,
