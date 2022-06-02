@@ -38,17 +38,23 @@ class StorageController extends Controller
     {
         // Lấy data
         $data = $request->all();
-        if (empty($data['content'])) {
-            return redirect()->back();
-        }
         $content = $data['content'];
         $name = $data['name'];
+        $file_image = $data['file_image'] ?? null;
         $type = empty($data['type']) ? "other" : "mlem";
-        $image = getimagesize($content);
+        $image = "";
+
+        // Validate input
+        if (empty($content) && empty($file_image)) {
+            return redirect()->back();
+        }
+        if (isset($content)) {
+            $image = getimagesize($content);
+        }
 
         // Nếu upload ảnh bằng form
         if (isset($data['file_image'])) {
-            $image_name = StorageFile::disk('public')->putFile("src/$type", $data['file_image']);
+            $image_name = StorageFile::disk('public')->putFile("src/$type", $file_image);
             Storage::query()->create([
                 'content' => "public/" . $image_name,
                 'type' => $type,
