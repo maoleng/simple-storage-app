@@ -3,7 +3,8 @@
 @else
     <link rel="stylesheet" href="{{asset('css/style-desktopp.css')}}">
 @endif
-
+<title>Storage App | MaoLeng</title>
+<link rel="icon" href="{{asset('img/mlem.jpg')}}">
 
 <div class="login-box">
     <h1>STORAGE APP</h1>
