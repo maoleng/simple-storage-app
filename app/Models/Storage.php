@@ -11,7 +11,7 @@ class Storage extends Model
     use HasFactory;
 
     protected $fillable = [
-        'content', 'type', 'name'
+        'content', 'type', 'name', 'is_mlem'
     ];
 
     public function getCreatedAtAttribute($date): string
