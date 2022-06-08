@@ -99,6 +99,11 @@ class StorageController extends Controller
         return view('login');
     }
 
+    public function login2()
+    {
+        return view('login2');
+    }
+
     public function show()
     {
 
