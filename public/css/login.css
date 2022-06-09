@@ -44,13 +44,13 @@ a:hover {
     text-decoration: underline
 }
 .mhn-ui-wrap {
-    width: 600px;
-    height: 950px;
+    width: 400px;
+    height: 634px;
     overflow: hidden;
     position: relative;
-    margin: 60px auto 0;
+    margin: 40px auto 0;
     background: url(https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340) center no-repeat #2c3e50;
-    box-shadow: 0 34px 100px 0 rgba(0, 0, 0, .19), 0 24px 30px 0 rgba(0, 0, 0, .24)
+    box-shadow: 0 23px 67px 0 rgba(0, 0, 0, .19), 0 11px 20px 0 rgba(0, 0, 0, .24)
 }
 .mhn-ui-wrap:before {
     top: 0;
@@ -67,23 +67,23 @@ a:hover {
     position: relative
 }
 .mhn-ui-date-time .mhn-ui-time {
-    font-size: 56px;
-    font-weight: 400;
-    margin-bottom: 30px
-}
-.mhn-ui-date-time .mhn-ui-day {
-    font-size: 48px;
+    font-size: 37px;
+    font-weight: 267;
     margin-bottom: 20px
 }
+.mhn-ui-date-time .mhn-ui-day {
+    font-size: 32px;
+    margin-bottom: 13px
+}
 .mhn-ui-date-time .mhn-ui-date {
-    font-size: 36px;
-    font-weight: 400
+    font-size: 24px;
+    font-weight: 267
 }
 .mhn-ui-app-time {
-    padding: 0 10px;
-    font-size: 24px;
+    padding: 0 7px;
+    font-size: 16px;
     text-align: right;
-    margin: -30px -30px auto;
+    margin: -20px -20px auto;
     background: rgba(0, 0, 0, .6)
 }
 .mhn-lock-wrap {
@@ -150,16 +150,16 @@ a:hover {
     height: 100%;
     z-index: 200;
     display: none;
-    padding: 30px;
+    padding: 20px;
     position: relative
 }
 .mhn-ui-page.page-lock {
     position: initial
 }
 .mhn-ui-page .mhn-ui-app-title-head {
-    padding: 30px;
-    font-size: 32px;
-    margin: 0 -30px;
+    padding: 20px;
+    font-size: 21px;
+    margin: 0 -20px;
     background: rgba(0, 0, 0, .4)
 }
 .mhn-ui-page .mhn-ui-filter {
@@ -168,8 +168,8 @@ a:hover {
 }
 .mhn-ui-page .mhn-ui-filter .mhn-ui-btn {
     right: 0;
-    top: -10px;
-    padding: 10px;
+    top: -7px;
+    padding: 7px;
     cursor: pointer;
     position: absolute;
     display: inline-block
@@ -179,18 +179,18 @@ a:hover {
 }
 .mhn-ui-page .mhn-ui-filter-list {
     right: 0;
-    top: 40px;
-    padding: 10px;
-    width: 360px;
+    top: 27px;
+    padding: 7px;
+    width: 240px;
     display: none;
     position: absolute;
     background: rgba(0, 0, 0, .8)
 }
 .mhn-ui-page .mhn-ui-filter-list>div {
     display: block;
-    font-size: 28px;
+    font-size: 17px;
     cursor: pointer;
-    padding: 4px 8px
+    padding: 3px 6px
 }
 .mhn-ui-page .mhn-ui-filter-list>div.active {
     color: teal
@@ -202,7 +202,7 @@ a:hover {
     background: 0 0
 }
 .mhn-ui-page .mhn-ui-row {
-    margin-top: 15px
+    margin-top: 10px
 }
 .mhn-ui-page .mhn-ui-row:after,
 .mhn-ui-page .mhn-ui-row:before {
@@ -216,31 +216,31 @@ a:hover {
 .mhn-ui-page .mhn-ui-col {
     width: 25%;
     float: left;
-    margin-bottom: 30px
+    margin-bottom: 20px
 }
 .mhn-ui-bottom-link-bar {
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 30px;
+    padding: 20px;
     position: absolute;
     text-align: center
 }
 .mhn-ui-bottom-link-bar .mhn-ui-bottom-btn {
-    width: 80px;
-    height: 80px;
+    width: 53px;
+    height: 53px;
     cursor: pointer;
-    font-size: 56px;
-    line-height: 80px;
+    font-size: 37px;
+    line-height: 53px;
     text-align: center;
     border-radius: 50%;
     display: inline-block
 }
 .mhn-ui-bottom-link-bar .mhn-ui-bottom-btn:nth-child(1) {
-    margin-right: 30px
+    margin-right: 20px
 }
 .mhn-ui-bottom-link-bar .mhn-ui-bottom-btn:nth-child(2) {
-    margin-left: 30px
+    margin-left: 20px
 }
 .mhn-ui-bottom-link-bar .mhn-ui-bottom-btn:hover {
     color: #ccc;
@@ -250,37 +250,37 @@ a:hover {
     text-align: center
 }
 .mhn-ui-icon span {
-    width: 110px;
-    height: 110px;
+    width: 73px;
+    height: 73px;
     margin: auto;
     display: block;
-    font-size: 56px;
+    font-size: 37px;
     cursor: pointer;
-    line-height: 110px;
+    line-height: 73px;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 20px;
     background: rgba(0, 0, 0, .3);
     transition: background .4s ease-in-out 0s;
     box-shadow: 0 -1px 0 rgba(255, 255, 255, .5) inset
 }
 .mhn-ui-icon .mhn-ui-icon-title {
-    margin-top: 10px;
+    margin-top: 7px;
     cursor: default;
     overflow: hidden;
-    font-size: 26px;
+    font-size: 17px;
     text-overflow: ellipsis;
     text-shadow: 0 2px 2px rgba(0, 0, 0, .5)
 }
 .mhn-ui-page.page-author img {
-    padding: 16px;
-    margin-top: 30px;
+    padding: 10px;
+    margin-top: 20px;
     border-radius: 50%;
     background: rgba(255, 255, 255, .7)
 }
 .mhn-ui-credit {
-    padding: 10px;
-    font-size: 26px;
-    margin-top: 30px;
+    padding: 7px;
+    font-size: 17px;
+    margin-top: 20px;
     background: rgba(0, 0, 0, .2);
     border: 1px solid rgba(0, 0, 0, .2)
 }
@@ -289,7 +289,7 @@ a:hover {
     color: #aaa
 }
 .mhn-ui-credit a {
-    font-weight: 500
+    font-weight: 333
 }
 .mhn-ui-dialog-wrap {
     top: 0;
@@ -302,19 +302,19 @@ a:hover {
     background: rgba(0, 0, 0, .7)
 }
 .mhn-ui-dialog {
-    padding: 30px;
+    padding: 20px;
     background: #000;
     margin: 50% 0 auto
 }
 .mhn-ui-dialog .mhn-ui-dialog-title {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 500
 }
 .mhn-ui-dialog .mhn-ui-dialog-btn {
-    padding: 10px;
-    min-width: 130px;
+    padding: 7px;
+    min-width: 87px;
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 13px;
     text-align: center;
     display: inline-block;
     border: 4px solid rgba(255, 255, 255, .8)
@@ -324,8 +324,8 @@ a:hover {
     text-decoration: none
 }
 .mhn-ui-info {
-    margin: 60px 0;
-    font-size: 16px;
+    margin: 40px 0;
+    font-size: 11px;
     text-align: center
 }
 .mhn-ui-date,
@@ -373,4 +373,76 @@ a:hover {
 }
 .mhn-ui-credit-list .mhn-ui-credit:nth-child(5) {
     animation: fadeInUp .8s
+}
+
+
+/*----------------------------------------*/
+
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.custom-btn {
+    width: 130px;
+    margin: 20px;
+    height: 40px;
+    color: hsl(120, 60%, 70%);
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    opacity: 0.5;
+}
+
+
+/* 11 */
+.btn-11 {
+    border: none;
+    background: hsla(120, 60%, 70%, 0.3);
+    background: linear-gradient(0deg, rgba(251,33,117,1) 0%, rgba(234,76,137,1) 100%);
+    color: #fff;
+    overflow: hidden;
+}
+.btn-11:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.btn-11:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+.btn-11:hover{
+    opacity: .7;
+}
+.btn-11:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+    -4px -4px 6px 0 rgba(116, 125, 136, .2),
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+
+@-webkit-keyframes shiny-btn1 {
+    0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
 }
