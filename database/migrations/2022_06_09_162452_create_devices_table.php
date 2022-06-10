@@ -15,6 +15,9 @@ return new class extends Migration
     {
         Schema::create('devices', function (Blueprint $table) {
             $table->id();
+            $table->string('location', 250)->default(null);
+            $table->boolean('active')->default(false);
+            $table->timestamp('last_login')->useCurrent();
             $table->timestamps();
         });
     }
