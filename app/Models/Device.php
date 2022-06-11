@@ -11,11 +11,17 @@ class Device extends Model
     use HasFactory;
 
     protected $fillable = [
-        'id', 'location', 'active', 'last_login',
+        'id', 'device_id', 'location', 'is_mobile', 'active', 'last_login',
     ];
 
     public function getLastLoginAttribute()
     {
-        return Carbon::
+
+    }
+
+    public function isMobile(): bool
+    {
+        $ua = strtolower($_SERVER["HTTP_USER_AGENT"]);
+        return is_numeric(strpos($ua, "mobile"));
     }
 }
